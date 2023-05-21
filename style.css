@@ -1,0 +1,77 @@
+/* style.css */
+
+/* Global Styles */
+body {
+  background: linear-gradient(rgb(126, 213, 248), rgb(194, 106, 249));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Form Styles */
+.form {
+  width: 50%;
+  background-color: rgba(244, 231, 255, 0.8);
+  padding: 20px;
+}
+
+.text_field {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Enrolled Students Styles */
+.Enrolled_Students {
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.data,
+.image {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+
+.data {
+  flex: 2;
+}
+
+.image {
+  flex: 1;
+}
